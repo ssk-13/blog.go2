@@ -135,7 +135,7 @@ const Detail = ({ setActive, user }) => {
         <div className="overlay"></div>
         <div className="blog-title">
           <span>{blog?.timestamp.toDate().toDateString()}</span>
-          <h2>{blog?.title}</h2>
+          <h2 style={{fontSize: 5 + 'vw'}}>{blog?.title}</h2>
         </div>
       </div>
       <div className="container-fluid pb-4 pt-4 padding blog-single-content">
